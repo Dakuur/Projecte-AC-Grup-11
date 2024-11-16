@@ -47,11 +47,7 @@ Taula d'estadístiques per Pokèmon:
 
 Imatge de Pokèmon:
 
-![Exemple 2](articuno.png)
-![Exemple 3](zapdos.png)
-![Exemple 4](moltres.png)
-
----
-
-## Contacte
-Si tens preguntes o vols contribuir, no dubtis a contactar o obrir un issue!
+![Pokemon 1](bulbasaur.png)
+![Pokemon 2](squirtle.png)
+![Pokemon 3](charmander.png)
+![Pokemon 4](pikachu.png)
