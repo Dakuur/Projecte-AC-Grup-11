@@ -43,11 +43,13 @@ Aquest projecte analitza dades de Pokémon per resoldre diversos problemes com:
 ## Exemple de dades
 Taula d'estadístiques per Pokèmon:
 
-![Exemple 1](image.png)
+![Exemple 1](image1.png)
 
 Imatge de Pokèmon:
 
-![Exemple 2](image1.png)
+![Exemple 2](articuno.png)
+![Exemple 3](zapdos.png)
+![Exemple 4](moltres.png)
 
 ---
 
