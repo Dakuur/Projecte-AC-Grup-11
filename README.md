@@ -40,12 +40,11 @@ Aquest projecte analitza dades de Pokémon per resoldre diversos problemes com:
 - [Dataset de Pokémon](https://www.kaggle.com/datasets/abcsds/pokemon/data)
 - [Dataset d’Imatges](https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types)
 
-## Exemple de Visualització
-_Aquesta secció inclourà imatges generades després del processament de dades i resultats del projecte._
-
-![Exemple 1](ruta/a/imatge1.png)
-![Exemple 2](ruta/a/imatge2.png)
-![Clustering en 3D](ruta/a/clustering.png)
+## Exemple de dades
+Taula d'estadístiques per Pokèmon:
+![Exemple 1](image.png)
+Imatge de Pokèmon:
+![Exemple 2](image12.png)
 
 ---
 
