@@ -41,11 +41,11 @@ Aquest projecte analitza dades de Pokémon per resoldre diversos problemes com:
 - [Dataset d’Imatges](https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types)
 
 ## Exemple de dades
-Taula d'estadístiques per Pokèmon:
+**Taula d'estadístiques per Pokèmon:**
 
 ![Exemple 1](image1.png)
 
-Imatge de Pokèmon:
+**Imatges de Pokèmons:**
 
 ![Pokemon 1](bulbasaur.png)
 ![Pokemon 2](squirtle.png)
