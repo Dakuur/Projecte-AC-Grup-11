@@ -1,53 +1,41 @@
-# Predicció i Classificació de Pokémon utilitzant Machine Learning
+# Predicció d'Atacs de Cor utilitzant Machine Learning
 
 ## Descripció General
-Aquest projecte analitza dades de Pokémon per resoldre diversos problemes com:
-- **Predicció d'estadístiques.**
-- **Classificació de tipus.**
-- **Agrupació per similitud.**
+Aquest projecte analitza dades mèdiques per resoldre diversos problemes com:
+- **Predicció d'atacs de cor.**
+- **Classificació de risc.**
+- **Agrupació per similitud de pacients.**
 
 ## Datasets
-1. **[Pokemon with Stats Dataset](https://www.kaggle.com/datasets/abcsds/pokemon/data)**  
-   Aquest dataset conté informació com:
-   - Índex de la PokéDex.
-   - Nom.
-   - Tipus (Primari i secundari).
-   - Estadístiques: HP, Atac, Defensa, etc.
-
-2. **[Pokémon Image Dataset](https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types)**  
-   Permet analitzar dades visuals dels Pokémon per:
-   - Processar colors per predir el tipus.
-   - Comparar característiques visuals dins d’un grup.
+Aquest dataset conté informació com:
+- **id:** Identificador únic del pacient.
+- **gender:** Sexe del pacient.
+- **age:** Edat del pacient.
+- **hypertension:** Historial d'hipertensió.
+- **heart_disease:** Historial de malalties del cor.
+- **ever_married:** Estat civil del pacient.
+- **work_type:** Tipus de treball del pacient.
+- **Residence_type:** Tipus de residència del pacient.
+- **avg_glucose_level:** Nivell mitjà de glucosa en sang.
+- **bmi:** Índex de massa corporal.
+- **smoking_status:** Estat de tabaquisme del pacient.
+- **stroke:** Historial d'ictus.
 
 ## Fases del Projecte i Models
-### 1. Regressió: Predicció del Total d'Estadístiques
-- **Problema:** Predir una estadística (com el Total d'Estadístiques) basant-se en altres estadístiques individuals (HP, Atac, Defensa, etc.).
-- **Model:** Regressió Lineal o Polinòmica.
-- **Entrades i Sortides:** Estadístiques individuals com a entrada, Total d'Estadístiques com a sortida.
-- **Mètriques:** RMSE, MAE.
+### 1. Regressió Logística: Predicció d'Atacs de Cor
+- **Problema:** Predir la probabilitat de patir un atac de cor basant-se en factors de risc individuals.
+- **Model:** Regressió Logística.
+- **Entrades i Sortides:** Factors de risc com a entrada, probabilitat d'atac de cor com a sortida.
+- **Mètriques:** AUC-ROC, Accuracy, Precision, Recall.
 
-### 2. Clustering: Agrupació per Similitud
-- **Problema:** Agrupar Pokémon similars segons estadístiques i tipus.
+### 2. Clustering: Agrupació per Similitud de Pacients
+- **Problema:** Agrupar pacients similars segons factors de risc.
 - **Model:** K-Means.
 - **Visualització:** Representació en 3D o 2D utilitzant reducció de dimensionalitat.
-- **Resultat esperat:** Identificar grups com "Pokémon ràpids i dèbils" o agrupacions visuals segons tipus.
+- **Resultat esperat:** Identificar grups com "Pacients amb alt risc" o "Pacients amb baix risc".
 
 ### 3. Ampliacions Opcionals
-- **Probabilitats de Combat:** Estimar la probabilitat de guanyar un combat entre dos Pokémon basant-se en les seves estadístiques i tipus.
-- **Sistema Recomanador:** Recomanar la millor carta per maximitzar l’atac i/o defensa contra un rival.
+- **Predicció de Tractaments:** Estimar l'eficàcia de diferents tractaments basant-se en les característiques del pacient. (S'hauria de fer servir un altre dataset)
 
 ## Recursos
-- [Dataset de Pokémon](https://www.kaggle.com/datasets/abcsds/pokemon/data)
-- [Dataset d’Imatges](https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types)
-
-## Exemple de dades
-**Taula d'estadístiques per Pokèmon:**
-
-![Exemple 1](image1.png)
-
-**Imatges de Pokèmons:**
-
-![Pokemon 1](bulbasaur.png)
-![Pokemon 2](squirtle.png)
-![Pokemon 3](charmander.png)
-![Pokemon 4](pikachu.png)
+- [Dataset de Malalties del Cor](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset )
